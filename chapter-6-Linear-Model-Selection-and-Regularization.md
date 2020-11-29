@@ -765,7 +765,7 @@ validationplot(pls.mod, val.type = "MSEP")
 
 ![Figure 10: PLS - Components M selection](chapter-6-Linear-Model-Selection-and-Regularization_files/figure-html/9fi-1.png)
 
-In the figure 9, we notice that the best is to use all predictors but there is not much difference between 5 and 17 so that we will pick 10 components.
+In the figure 10, we notice that the best is to use all predictors but there is not much difference between 5 and 17 so that we will pick 10 components.
 
 
 ```r
@@ -988,7 +988,7 @@ plot(1:20, val.errors, xlab = "number of predictors", ylab = "testing MSE", type
 
 (e) For which model size does the test set MSE take on its minimum value? Comment on your results. If it takes on its minimum value for a model containing only an intercept or a model containing all of the features, then play around with the way that you are generating the data in (a) until you come up with a scenario in which the test set MSE is minimized for an intermediate model size.
 
-The test MSE is minimized fro the 11-variable model.
+The test MSE is minimized for the 11-variable model.
 
 (f) How does the model at which the test set MSE is minimized compare to the true model used to generate the data? Comment on the coefficient values.
 
