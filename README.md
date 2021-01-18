@@ -1,7 +1,7 @@
 # ISLR
-STA314 Machine Learning I
+* STA314 Statistical Methods for Machine Learning I
 
-An Introduction to Statistical Learning with Application in R - Applied Exercises
+* An Introduction to Statistical Learning with Application in R - Applied Exercises
 
 
 
